@@ -4,7 +4,9 @@ class Printing {
   Printing();
 
   void printTitle(String customTitle) {
-    var countEquals = 70;
+    var countEquals = 124;
+
+    print('');
     for (var i = 0; i < countEquals; i++) {
       stdout.write('=');
     }
